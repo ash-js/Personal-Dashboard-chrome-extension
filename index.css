@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-shadow: 0px 0px 20px #aaaaaa;
+}
+
+main {
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.time {
+    /* border: 1px solid green; */
+    text-align: center;
+    font-size: 5rem;
+}
+
+#coin-bottom>p {
+    margin: 0;
+}
+
+#coin-top {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+#coin-top>span {
+    margin-left: 10px;
+}
+
+#weather {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: flex-end;
+}
+
+p.weather-city {
+    width: 100%;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.weather-temp {
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+#author {
+    font-size: 1.2rem;
+}

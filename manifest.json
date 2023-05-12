@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "name":"personal Dashboard",
+    "version":"1.0.0",
+    "description":"Just for Practicing",
+    "action":{
+        "default_icon":"2.jpg"
+    },
+    "chrome_url_overrides":{
+        "newtab":"index.html"
+    }
+}
